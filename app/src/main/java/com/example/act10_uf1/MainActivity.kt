@@ -9,7 +9,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main_linear) // Canvia a activity_main_relative o activity_main_constraint segons el layout
+        setContentView(R.layout.activity_main_linear) 
 
         val submitButton: Button = findViewById(R.id.buttonSubmit)
         submitButton.setOnClickListener {
